@@ -20,6 +20,7 @@ pip install --editable .
 ## CLI Usage
 
 ```bash
+export CIRCLECI_TOKEN=xxxx #xxxx is the personal API key retrived from CircleCI
 cideploy --branch=xxx --project=company/project --params=\"explicit_deploy\":true
 ```
 
